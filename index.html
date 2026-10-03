@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxe Shoot Photography | Studio Premium Brazzaville</title>
+    <title>Luxe Shoots Photography | Studio Premium Brazzaville</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -94,7 +94,7 @@
             transform: translateY(0);
         }
 
-        /* Technique de recadrage CSS */
+        /* NOUVELLES CATÉGORIES DE RECADRAGE LUXE */
         .photo-crop {
             background-repeat: no-repeat;
             background-size: cover;
@@ -102,13 +102,20 @@
             transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
-        .crop-mariage { background-image: url('WhatsApp Image 2026-08-13 at 1000503741.jpg'); background-size: 280%; background-position: 95% 12%; }
-        .crop-portrait { background-image: url('WhatsApp Image 2026-08-13 at 1000503741.jpg'); background-size: 220%; background-position: 40% 50%; }
-        .crop-grossesse { background-image: url('WhatsApp Image 2026-08-13 at 1000503741.jpg'); background-size: 280%; background-position: 95% 53%; }
-        .crop-famille { background-image: url('WhatsApp Image 2026-08-13 at 1000503741.jpg'); background-size: 220%; background-position: 10% 82%; }
+        /* Images fournies mappées selon les instructions */
+        .crop-luxe-glamor-1 { background-image: url('WhatsApp Image 2026-10-01 at 20.27.28.jpeg'); background-position: center 25%; }
+        .crop-luxe-glamor-2 { background-image: url('WhatsApp Image 2026-10-01 at 20.27.29.jpeg'); background-position: center 30%; }
+        .crop-luxe-maternity { background-image: url('WhatsApp Image 2026-10-01 at 20.35.19.jpeg'); background-position: center 20%; }
+        .crop-luxe-portrait { background-image: url('WhatsApp Image 2026-10-01 at 20.36.26.jpeg'); background-position: center 15%; }
+        .crop-luxe-ceo { background-image: url('WhatsApp Image 2026-10-01 at 20.37.13.jpeg'); background-position: center 10%; }
 
-        .crop-homme-costume { background-image: url('WhatsApp Image 2026-08-13 at 1000503740.jpg'); background-size: 280%; background-position: 95% 30%; }
-        .crop-femme { background-image: url('WhatsApp Image 2026-08-13 at 1000503740.jpg'); background-size: 300%; background-position: 95% 62%; }
+        /* Autres catégories (réutilisation des images pour la démo en attendant vos photos) */
+        .crop-luxe-birthday { background-image: url('WhatsApp Image 2026-10-01 at 20.27.29.jpeg'); background-position: center 40%; }
+        .crop-luxe-grad { background-image: url('WhatsApp Image 2026-10-01 at 20.36.26.jpeg'); background-position: center 20%; }
+        .crop-luxe-queen { background-image: url('WhatsApp Image 2026-10-01 at 20.27.28.jpeg'); background-position: center 10%; }
+        .crop-luxe-gentleman { background-image: url('WhatsApp Image 2026-10-01 at 20.37.13.jpeg'); background-position: center 25%; }
+        .crop-luxe-beauty { background-image: url('WhatsApp Image 2026-10-01 at 20.27.28.jpeg'); background-position: center 15%; }
+        .crop-luxe-event { background-image: url('WhatsApp Image 2026-10-01 at 20.27.29.jpeg'); background-position: center 15%; }
 
         .portfolio-item {
             position: relative;
@@ -187,22 +194,19 @@
     <!-- Preloader -->
     <div id="preloader">
         <div class="loader-logo">
-            <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'48\' fill=\'%23050505\' stroke=\'%23d4af37\' stroke-width=\'2\'/><text x=\'50%\' y=\'55%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23d4af37\' font-family=\'Cinzel\' font-size=\'22\'>LS</text></svg>'">
+            <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo">
         </div>
     </div>
 
     <!-- Navigation -->
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-500 py-6 border-b border-transparent">
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-500 py-5 border-b border-transparent">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
-            <a href="#" class="flex items-center space-x-4 group">
-                <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo" class="w-12 h-12 rounded-full border border-[#d4af37] object-cover group-hover:scale-110 transition duration-300" onerror="this.style.display='none'">
-                <div class="flex flex-col">
-                    <span class="font-serif text-2xl tracking-[0.25em] text-white group-hover:text-[#d4af37] transition duration-300">LUXE SHOTS</span>
-                    <span class="text-[0.6rem] uppercase tracking-[0.4em] text-gray-400">Photography</span>
-                </div>
+            
+            <a href="#" class="flex items-center group">
+                <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo" class="w-14 h-14 rounded-full border border-[#d4af37] object-cover group-hover:scale-110 transition duration-300 p-0.5">
             </a>
             
-            <div class="hidden lg:flex space-x-8 items-center">
+            <div class="hidden lg:flex space-x-10 items-center">
                 <a href="#accueil" class="text-xs uppercase tracking-[0.2em] text-gray-300 hover:text-[#d4af37] transition">Accueil</a>
                 <a href="#about" class="text-xs uppercase tracking-[0.2em] text-gray-300 hover:text-[#d4af37] transition">Le Studio</a>
                 <a href="#services" class="text-xs uppercase tracking-[0.2em] text-gray-300 hover:text-[#d4af37] transition">Services</a>
@@ -255,7 +259,7 @@
             </h1>
             
             <p class="text-gray-300 font-light text-lg md:text-xl max-w-2xl mx-auto mb-12 tracking-wide leading-relaxed">
-                L'art de la photographie haut de gamme au cœur de Brazzaville. Des souvenirs d'aujourd'hui, des émotions pour toujours.
+                L'art de la photographie et de la vidéographie haut de gamme au cœur de Brazzaville. Des souvenirs d'aujourd'hui, des émotions pour toujours.
             </p>
             
             <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
@@ -273,8 +277,7 @@
     <section id="about" class="py-32 bg-[#0c0c0c] relative border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-16">
-                
-                <!-- Logo Frame -->
+                <!-- Logo Cadre -->
                 <div class="lg:w-1/2 flex justify-center reveal">
                     <div class="relative p-10 border border-[#d4af37]/40 bg-gradient-to-b from-[#141414] to-[#080808] text-center shadow-2xl max-w-md w-full rounded-sm">
                         <div class="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-[#d4af37]"></div>
@@ -282,7 +285,7 @@
                         <div class="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-[#d4af37]"></div>
                         <div class="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-[#d4af37]"></div>
                         
-                        <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo Studio" class="w-40 h-40 rounded-full mx-auto mb-6 border-2 border-[#d4af37] p-1.5 shadow-2xl object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'120\' height=\'120\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'48\' fill=\'%23050505\' stroke=\'%23d4af37\' stroke-width=\'2\'/><text x=\'50%\' y=\'55%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23d4af37\' font-family=\'Cinzel\' font-size=\'20\'>LUXE SHOTS</text></svg>'">
+                        <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo Studio" class="w-40 h-40 rounded-full mx-auto mb-6 border-2 border-[#d4af37] p-1.5 shadow-2xl object-cover">
                         <h3 class="font-serif text-3xl tracking-[0.2em] text-gold mb-2">LUXE SHOTS</h3>
                         <p class="text-xs uppercase tracking-[0.3em] text-gray-400 mb-6">Résidence Émilie Flory</p>
                         <div class="w-16 h-[1px] bg-[#d4af37] mx-auto"></div>
@@ -295,10 +298,10 @@
                     
                     <div class="space-y-6 text-gray-300 font-light leading-relaxed text-base md:text-lg">
                         <p>
-                            Situé à la <strong>Résidence Émilie Flory</strong> (Rez-de-chaussée) à Brazzaville, <strong>Luxe Shots Photography</strong> réinvente la photographie au Congo.
+                            Situé à la <strong>Résidence Émilie Flory</strong> (Rez-de-chaussée) à Brazzaville, <strong>Luxe Shots Photography</strong> réinvente l'audiovisuel au Congo.
                         </p>
                         <p>
-                            De la photographie de mariage aux portraits professionnels haute définition, notre équipement d'éclairage de pointe et notre savoir-faire artistique transforment des instants éphémères en œuvres d'art intemporelles.
+                            De la photographie glamour aux vidéos institutionnelles, notre équipement d'éclairage de pointe et notre savoir-faire artistique transforment vos projets et vos instants éphémères en œuvres d'art intemporelles.
                         </p>
                     </div>
                     
@@ -311,15 +314,14 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-4">
-                            <i class="fas fa-wand-magic-sparkles text-3xl text-[#d4af37]"></i>
+                            <i class="fas fa-video text-3xl text-[#d4af37]"></i>
                             <div>
-                                <p class="font-serif text-base text-white">Retouche Art</p>
-                                <p class="text-xs text-gray-400">Finition Haute Couture</p>
+                                <p class="font-serif text-base text-white">Cinéma & Vidéo</p>
+                                <p class="text-xs text-gray-400">Montage & Motion</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -327,77 +329,93 @@
     <!-- Services Section -->
     <section id="services" class="py-32 bg-[#050505] relative border-t border-b border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <div class="text-center mb-20 reveal">
+            <div class="text-center mb-16 reveal">
                 <h4 class="text-[#d4af37] uppercase tracking-[0.4em] text-xs font-semibold mb-4">Savoir-Faire</h4>
                 <h2 class="text-4xl md:text-6xl font-serif">Nos <span class="text-gold italic">Services</span></h2>
                 <div class="w-16 h-[2px] bg-[#d4af37] mx-auto mt-6"></div>
             </div>
 
+            <!-- NOUVEAU BLOC : PHOTOGRAPHIE & VIDÉOGRAPHIE -->
+            <div class="mb-20 reveal max-w-5xl mx-auto bg-gradient-to-br from-[#141414] to-[#050505] border border-[#d4af37]/30 p-8 md:p-12 rounded-sm shadow-[0_15px_50px_rgba(0,0,0,0.5)] relative overflow-hidden">
+                <div class="absolute -right-20 -top-20 w-64 h-64 bg-[#d4af37] blur-[120px] opacity-10"></div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+                    <!-- Photo -->
+                    <div>
+                        <div class="flex items-center gap-4 mb-6 border-b border-gray-800 pb-4">
+                            <div class="w-12 h-12 rounded-full bg-[#d4af37]/10 flex items-center justify-center text-[#d4af37] text-xl border border-[#d4af37]/30">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h3 class="font-serif text-2xl text-white tracking-wide">PHOTOGRAPHIE</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-400 font-light text-sm">
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-[#d4af37] text-xs"></i> Luxe Portrait, Glamor & Beauty</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-[#d4af37] text-xs"></i> Luxe CEO (Profils pro et d'affaires)</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-[#d4af37] text-xs"></i> Luxe Maternity & Family</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-[#d4af37] text-xs"></i> Luxe Events (Birthday, Wedding...)</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-[#d4af37] text-xs"></i> Luxe Grad (Diplomas & Soutenances)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Vidéo -->
+                    <div>
+                        <div class="flex items-center gap-4 mb-6 border-b border-gray-800 pb-4">
+                            <div class="w-12 h-12 rounded-full bg-[#d4af37]/10 flex items-center justify-center text-[#d4af37] text-xl border border-[#d4af37]/30">
+                                <i class="fas fa-film"></i>
+                            </div>
+                            <h3 class="font-serif text-2xl text-white tracking-wide">VIDÉOGRAPHIE</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-400 font-light text-sm">
+                            <li class="flex items-start gap-2"><i class="fas fa-play text-[#d4af37] text-xs mt-1"></i> <span><strong>Reportage & Films Events :</strong> Mariage, anniversaire, soutenance, baptême, etc.</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-play text-[#d4af37] text-xs mt-1"></i> <span><strong>Films Commerciaux :</strong> Spot publicitaire, mise en valeur de produits.</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-play text-[#d4af37] text-xs mt-1"></i> <span><strong>Audiovisuel Pro :</strong> Documentaires, interviews.</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-play text-[#d4af37] text-xs mt-1"></i> <span><strong>Post-production :</strong> Montage et Motion design.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Détails interactifs -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service 1 -->
                 <div class="luxury-card p-8 rounded-sm reveal group">
-                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-id-card"></i></div>
-                    <h3 class="font-serif text-2xl mb-3 text-white">Photos d'Identité</h3>
-                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Impressions express et conformes aux exigences réglementaires pour vos passeports, visas et documents officiels.</p>
-                    <button onclick="openBookingModal('Photo Identité')" class="text-xs text-[#d4af37] font-semibold uppercase tracking-[0.2em] hover:underline flex items-center gap-2">
-                        Venir en Studio <i class="fas fa-arrow-right text-[10px]"></i>
-                    </button>
+                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-crown"></i></div>
+                    <h3 class="font-serif text-2xl mb-3 text-white">Luxe Glamor & Beauty</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Mise en beauté, éclairage sur-mesure et retouches haut de gamme pour sublimer votre charisme et votre prestance.</p>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="luxury-card p-8 rounded-sm reveal group">
-                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-[#d4af37] fa-gem"></i></div>
-                    <h3 class="font-serif text-2xl mb-3 text-white">Mariage & Fiançailles</h3>
-                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Couverture intégrale des moments précieux de votre union avec une approche élégante, naturelle et mémorable.</p>
-                    <button onclick="openBookingModal('Mariage & Fiançailles')" class="text-xs text-[#d4af37] font-semibold uppercase tracking-[0.2em] hover:underline flex items-center gap-2">
-                        Demander un Devis <i class="fas fa-arrow-right text-[10px]"></i>
-                    </button>
-                </div>
-
-                <!-- Service 3 -->
                 <div class="luxury-card p-8 rounded-sm reveal group">
                     <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-user-tie"></i></div>
-                    <h3 class="font-serif text-2xl mb-3 text-white">Portraits Studio & Corporate</h3>
-                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Sublimez votre image personnelle, votre profil professionnel et vos réseaux avec un éclairage sur-mesure.</p>
-                    <button onclick="openBookingModal('Portraits Studio')" class="text-xs text-[#d4af37] font-semibold uppercase tracking-[0.2em] hover:underline flex items-center gap-2">
-                        Réserver cette séance <i class="fas fa-arrow-right text-[10px]"></i>
-                    </button>
+                    <h3 class="font-serif text-2xl mb-3 text-white">Luxe CEO</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Photographie professionnelle pour dirigeants, entrepreneurs et personnalités publiques voulant asseoir leur image de marque.</p>
                 </div>
 
-                <!-- Service 4 -->
+                <div class="luxury-card p-8 rounded-sm reveal group">
+                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="font-serif text-2xl mb-3 text-white">Luxe Grad</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Célébrez l'aboutissement de vos études avec des photos de diplôme élégantes et inoubliables pour votre parcours.</p>
+                </div>
+
                 <div class="luxury-card p-8 rounded-sm reveal group">
                     <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-baby-carriage"></i></div>
-                    <h3 class="font-serif text-2xl mb-3 text-white">Grossesse & Maternité</h3>
-                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Immortalisez la beauté de la maternité et gardez des souvenirs poignants de la venue de votre futur enfant.</p>
-                    <button onclick="openBookingModal('Grossesse & Maternité')" class="text-xs text-[#d4af37] font-semibold uppercase tracking-[0.2em] hover:underline flex items-center gap-2">
-                        Réserver cette séance <i class="fas fa-arrow-right text-[10px]"></i>
-                    </button>
+                    <h3 class="font-serif text-2xl mb-3 text-white">Luxe Maternity</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Immortalisez la beauté de la maternité avec des séances douces et artistiques en studio ou en extérieur.</p>
                 </div>
 
-                <!-- Service 5 -->
                 <div class="luxury-card p-8 rounded-sm reveal group">
-                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-users"></i></div>
-                    <h3 class="font-serif text-2xl mb-3 text-white">Famille & Groupe</h3>
-                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Des séances pleines de vie et de joie pour figer l'amour et la complicité qui réunissent votre famille.</p>
-                    <button onclick="openBookingModal('Famille & Groupe')" class="text-xs text-[#d4af37] font-semibold uppercase tracking-[0.2em] hover:underline flex items-center gap-2">
-                        Réserver cette séance <i class="fas fa-arrow-right text-[10px]"></i>
-                    </button>
+                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-champagne-glasses"></i></div>
+                    <h3 class="font-serif text-2xl mb-3 text-white">Luxe Events</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Couverture intégrale (Photo & Vidéo) de vos anniversaires, mariages, baptêmes avec un rendu cinématographique.</p>
                 </div>
 
-                <!-- Service 6 -->
                 <div class="luxury-card p-8 rounded-sm reveal group">
-                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-box-open"></i></div>
-                    <h3 class="font-serif text-2xl mb-3 text-white">Shooting Produit & Pub</h3>
-                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Mise en valeur visuelle de vos créations, vêtement, accessoires et marques pour vos campagnes publicitaires.</p>
-                    <button onclick="openBookingModal('Shooting Produit')" class="text-xs text-[#d4af37] font-semibold uppercase tracking-[0.2em] hover:underline flex items-center gap-2">
-                        Demander un Devis <i class="fas fa-arrow-right text-[10px]"></i>
-                    </button>
+                    <div class="text-[#d4af37] text-4xl mb-6 group-hover:scale-110 transition duration-300"><i class="fas fa-video"></i></div>
+                    <h3 class="font-serif text-2xl mb-3 text-white">Vidéographie Pro</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed mb-6">Spots publicitaires, documentaires, motion design et reportages dynamiques adaptés à tous vos besoins de communication.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Gallery Section avec Filtres -->
+    <!-- Galerie Visuelle avec Nouveaux Filtres -->
     <section id="portfolio" class="py-32 bg-[#0a0a0a]">
         <div class="max-w-[1400px] mx-auto px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
@@ -405,81 +423,112 @@
                 <h2 class="text-4xl md:text-5xl font-serif">Domaines d'<span class="text-gold italic">Expertise</span></h2>
                 <div class="w-12 h-[1px] bg-[#d4af37] mx-auto mt-6"></div>
 
-                <!-- Filter Tabs -->
                 <div class="flex flex-wrap justify-center gap-3 mt-10" id="filter-buttons">
                     <button class="filter-btn active px-6 py-2 border border-[#d4af37] bg-gold-gradient text-black text-xs uppercase tracking-widest font-semibold transition duration-300" data-filter="all">Tous</button>
-                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="mariage">Mariage</button>
-                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="portrait">Portrait</button>
-                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="grossesse">Grossesse</button>
-                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="famille">Famille</button>
+                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="glamor">Glamor</button>
+                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="portrait">Portrait & CEO</button>
+                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="maternity">Maternity</button>
+                    <button class="filter-btn px-6 py-2 border border-gray-800 text-gray-300 text-xs uppercase tracking-widest hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300" data-filter="event">Events</button>
                 </div>
             </div>
 
-            <!-- Visual Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="gallery-grid">
                 
-                <!-- Gallery Item 1 -->
-                <div class="portfolio-item h-96 reveal filter-item mariage" onclick="openLightbox('1000503741.jpg', 'Mariage d\'Exception', 'Brazzaville • Luxe Shots')">
-                    <div class="photo-crop crop-mariage w-full h-full"></div>
-                    <div class="portfolio-overlay">
-                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Mariage</span>
-                        <h3 class="font-serif text-2xl text-white mb-2">Émotion & Élégance</h3>
-                        <p class="text-xs text-gray-300 font-light mb-4">Capturer l'authenticité de l'instant</p>
-                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 2 -->
-                <div class="portfolio-item h-96 reveal filter-item portrait" onclick="openLightbox('1000503741.jpg', 'Portrait Studio Femme', 'Mise en lumière studio et retouche pro')">
-                    <div class="photo-crop crop-portrait w-full h-full"></div>
-                    <div class="portfolio-overlay">
-                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Portrait Studio</span>
-                        <h3 class="font-serif text-2xl text-white mb-2">Savoir-Faire Lumière</h3>
-                        <p class="text-xs text-gray-300 font-light mb-4">Portrait raffiné sur-mesure</p>
-                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 3 -->
-                <div class="portfolio-item h-96 reveal filter-item grossesse" onclick="openLightbox('1000503741.jpg', 'Grossesse & Maternité', 'Souvenir inestimable en studio')">
-                    <div class="photo-crop crop-grossesse w-full h-full"></div>
-                    <div class="portfolio-overlay">
-                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Maternité</span>
-                        <h3 class="font-serif text-2xl text-white mb-2">Douceur & Maternité</h3>
-                        <p class="text-xs text-gray-300 font-light mb-4">Immortaliser la vie à venir</p>
-                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 4 -->
-                <div class="portfolio-item h-96 reveal filter-item portrait" onclick="openLightbox('1000503740.jpg', 'Portrait Corporate Homme', 'Prestance et style professionnel')">
-                    <div class="photo-crop crop-homme-costume w-full h-full"></div>
-                    <div class="portfolio-overlay">
-                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Corporate</span>
-                        <h3 class="font-serif text-2xl text-white mb-2">Prestance & Prestige</h3>
-                        <p class="text-xs text-gray-300 font-light mb-4">Image de marque personnelle</p>
-                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 5 -->
-                <div class="portfolio-item h-96 reveal filter-item famille" onclick="openLightbox('1000503741.jpg', 'Complicité Familiale', 'Séance studio en groupe')">
-                    <div class="photo-crop crop-famille w-full h-full"></div>
-                    <div class="portfolio-overlay">
-                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Famille</span>
-                        <h3 class="font-serif text-2xl text-white mb-2">Moments Partagés</h3>
-                        <p class="text-xs text-gray-300 font-light mb-4">Un héritage visuel pour vos proches</p>
-                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 6 -->
-                <div class="portfolio-item h-96 reveal filter-item portrait" onclick="openLightbox('1000503740.jpg', 'Portrait Mode & Glamour', 'Studio haute précision')">
-                    <div class="photo-crop crop-femme w-full h-full"></div>
+                <!-- Luxe Glamor 1 -->
+                <div class="portfolio-item h-96 reveal filter-item glamor" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.27.28.jpeg', 'Luxe Glamor', 'Style & Élégance Studio')">
+                    <div class="photo-crop crop-luxe-glamor-1 w-full h-full"></div>
                     <div class="portfolio-overlay">
                         <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Glamour</span>
-                        <h3 class="font-serif text-2xl text-white mb-2">Regard Sublime</h3>
-                        <p class="text-xs text-gray-300 font-light mb-4">Mise en lumière professionnelle</p>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Glamor</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">La beauté en lumière</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe Glamor 2 -->
+                <div class="portfolio-item h-96 reveal filter-item glamor" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.27.29.jpeg', 'Luxe Glamor', 'Attitude et charisme')">
+                    <div class="photo-crop crop-luxe-glamor-2 w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Glamour</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Glamor</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">Attitude & Charisme</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe Maternity -->
+                <div class="portfolio-item h-96 reveal filter-item maternity" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.35.19.jpeg', 'Luxe Maternity', 'Souvenir inestimable d\'amour')">
+                    <div class="photo-crop crop-luxe-maternity w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Maternité</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Maternity</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">Tendresse & Complicité</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe Portrait -->
+                <div class="portfolio-item h-96 reveal filter-item portrait" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.36.26.jpeg', 'Luxe Portrait', 'Authenticité & Expression')">
+                    <div class="photo-crop crop-luxe-portrait w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Portrait</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Portrait</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">Regard authentique</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe CEO -->
+                <div class="portfolio-item h-96 reveal filter-item portrait" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.37.13.jpeg', 'Luxe CEO', 'Image professionnelle d\'excellence')">
+                    <div class="photo-crop crop-luxe-ceo w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Corporate</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe CEO</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">Photographie professionnelle</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe Event -->
+                <div class="portfolio-item h-96 reveal filter-item event" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.27.29.jpeg', 'Luxe Event / Birthday', 'Couverture événementielle premium')">
+                    <div class="photo-crop crop-luxe-birthday w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Célébration</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Birthday</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">L'art de l'événementiel</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Découvrir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe Grad -->
+                <div class="portfolio-item h-96 reveal filter-item event" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.36.26.jpeg', 'Luxe Grad', 'Souvenir de votre diplôme')">
+                    <div class="photo-crop crop-luxe-grad w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Diplôme</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Grad</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">L'accomplissement mémorable</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+
+                <!-- Luxe Queen / Gentleman -->
+                <div class="portfolio-item h-96 reveal filter-item portrait" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.37.13.jpeg', 'Luxe Gentleman & Queen', 'Charisme et prestance')">
+                    <div class="photo-crop crop-luxe-gentleman w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Prestige</span>
+                        <h3 class="font-serif text-xl text-white mb-2">Luxe Queen / Gentleman</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">L'élégance à l'état pur</p>
+                        <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
+                    </div>
+                </div>
+                
+                 <!-- Luxe Beauty -->
+                <div class="portfolio-item h-96 reveal filter-item glamor" onclick="openLightbox('WhatsApp Image 2026-10-01 at 20.27.28.jpeg', 'Luxe Beauty', 'Beauté et maquillage studio')">
+                    <div class="photo-crop crop-luxe-beauty w-full h-full"></div>
+                    <div class="portfolio-overlay">
+                        <span class="text-xs text-[#d4af37] uppercase tracking-[0.2em] mb-2">Beauté</span>
+                        <h3 class="font-serif text-2xl text-white mb-2">Luxe Beauty</h3>
+                        <p class="text-xs text-gray-300 font-light mb-4">Sublimer l'esthétique</p>
                         <span class="bg-gold-gradient text-black text-xs uppercase tracking-widest font-bold px-4 py-2">Agrandir <i class="fas fa-expand ml-1"></i></span>
                     </div>
                 </div>
@@ -503,7 +552,6 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
                 
-                <!-- Pack Standard -->
                 <div class="luxury-card p-8 rounded-sm flex flex-col justify-between reveal">
                     <div>
                         <h3 class="font-serif text-2xl text-white mb-2">Pack Portrait Express</h3>
@@ -524,7 +572,6 @@
                     </button>
                 </div>
 
-                <!-- Promo Vedette -->
                 <div class="bg-gradient-to-b from-[#181818] to-[#080808] border-2 border-[#d4af37] p-10 flex flex-col justify-between relative shadow-[0_0_40px_rgba(212,175,55,0.25)] reveal scale-105 my-4 md:my-0 rounded-sm">
                     <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gold-gradient text-black px-6 py-1 text-[11px] font-bold uppercase tracking-widest shadow-md">
                         Le Plus Populaire
@@ -550,7 +597,6 @@
                     </button>
                 </div>
 
-                <!-- Pack Prestige -->
                 <div class="luxury-card p-8 rounded-sm flex flex-col justify-between reveal">
                     <div>
                         <h3 class="font-serif text-2xl text-white mb-2">Pack VIP & Glamour</h3>
@@ -575,61 +621,18 @@
         </div>
     </section>
 
-    
-
-    <!-- FAQ Section -->
-    <section class="py-28 bg-[#050505] border-t border-gray-900">
-        <div class="max-w-4xl mx-auto px-6 lg:px-8">
-            <div class="text-center mb-16 reveal">
-                <h4 class="text-[#d4af37] uppercase tracking-[0.4em] text-xs font-semibold mb-4">Aide & Information</h4>
-                <h2 class="text-4xl font-serif">Questions <span class="text-gold italic">Fréquentes</span></h2>
-            </div>
-
-            <div class="space-y-4 reveal">
-                <div class="border border-gray-800 p-6 bg-[#0c0c0c] cursor-pointer rounded-sm faq-item" onclick="toggleFaq(this)">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-serif text-lg text-white">Où se situe exactement le studio Luxe Shots ?</h3>
-                        <i class="fas fa-chevron-down text-[#d4af37] transition-transform duration-300"></i>
-                    </div>
-                    <p class="text-gray-400 font-light text-sm mt-4 hidden leading-relaxed">
-                        Notre studio est situé au rez-de-chaussée de la <strong>Résidence Émilie Flory</strong> à Brazzaville, République du Congo.
-                    </p>
-                </div>
-
-                <div class="border border-gray-800 p-6 bg-[#0c0c0c] cursor-pointer rounded-sm faq-item" onclick="toggleFaq(this)">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-serif text-lg text-white">Faut-il obligatoirement prendre rendez-vous ?</h3>
-                        <i class="fas fa-chevron-down text-[#d4af37] transition-transform duration-300"></i>
-                    </div>
-                    <p class="text-gray-400 font-light text-sm mt-4 hidden leading-relaxed">
-                        Bien que nous accueillions les clients sans rendez-vous pour les photos d'identité, la réservation est fortement recommandée pour les séances portraits, maternité et famille afin de vous garantir un créneau dédié.
-                    </p>
-                </div>
-
-                <div class="border border-gray-800 p-6 bg-[#0c0c0c] cursor-pointer rounded-sm faq-item" onclick="toggleFaq(this)">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-serif text-lg text-white">Quel est le délai de livraison des photos ?</h3>
-                        <i class="fas fa-chevron-down text-[#d4af37] transition-transform duration-300"></i>
-                    </div>
-                    <p class="text-gray-400 font-light text-sm mt-4 hidden leading-relaxed">
-                        Les photos numériques retouchées sont généralement livrées dans un délai de 24h à 48h selon la formule choisie, via WhatsApp ou lien de téléchargement HD.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
     <!-- Contact & Footer -->
     <section id="contact" class="bg-[#0c0c0c] pt-28 pb-12 relative border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-20 reveal">
                 
-                <!-- Info Studio -->
                 <div class="lg:col-span-5">
-                    <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo" class="w-20 h-20 rounded-full border border-[#d4af37] mb-8 object-cover p-1 shadow-lg" onerror="this.style.display='none'">
-                    <h2 class="text-3xl md:text-4xl font-serif mb-6 leading-tight">Confiez-nous vos <br><span class="text-gold italic">plus beaux souvenirs</span></h2>
+                    <img src="WhatsApp Image 2026-08-13 at 1000503739.jpg" alt="Luxe Shots Logo" class="w-20 h-20 rounded-full border border-[#d4af37] mb-8 object-cover p-1 shadow-lg">
+                    <h2 class="text-3xl md:text-4xl font-serif mb-6 leading-tight">Confiez-nous vos <br><span class="text-gold italic">plus beaux projets</span></h2>
                     <p class="text-gray-400 font-light leading-relaxed mb-8">
-                        Notre équipe de passionnés est à votre disposition pour donner vie à vos projets photographiques les plus exigeants.
+                        Photographie ou Vidéographie, notre équipe de passionnés est à votre disposition pour donner vie à vos exigences visuelles.
                     </p>
                     <div class="flex space-x-4">
                         <a href="https://wa.me/242069200863" target="_blank" class="w-12 h-12 rounded-full border border-[#d4af37]/40 flex items-center justify-center text-[#d4af37] hover:bg-gold-gradient hover:text-black transition duration-300">
@@ -641,7 +644,6 @@
                     </div>
                 </div>
 
-                <!-- Coordonnées & Horaires -->
                 <div class="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div>
                         <h4 class="text-[#d4af37] uppercase tracking-[0.2em] text-xs font-bold mb-4">Localisation</h4>
@@ -674,7 +676,6 @@
                 </div>
             </div>
 
-            <!-- Footer -->
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs font-light text-gray-500">
                 <p>&copy; <span id="year"></span> Luxe Shots Photography. Tous droits réservés.</p>
                 <p class="mt-4 md:mt-0 italic flex items-center gap-2">
@@ -685,7 +686,7 @@
     </section>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/242069200863?text=Bonjour%20Luxe%20Shots,%20je%20souhaite%20réserver%20une%20séance%20photo." target="_blank" class="whatsapp-btn" aria-label="Contacter sur WhatsApp">
+    <a href="https://wa.me/242069200863?text=Bonjour%20Luxe%20Shots,%20je%20souhaite%20réserver%20une%20séance%20photo/vidéo." target="_blank" class="whatsapp-btn" aria-label="Contacter sur WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -712,7 +713,7 @@
 
                 <div>
                     <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Notes & Souhaits Particuliers</label>
-                    <textarea id="cust-notes" rows="3" placeholder="Préférence d'horaire, tenues, nombre de personnes..." class="w-full bg-[#050505] border border-gray-800 px-4 py-3 text-white text-sm focus:border-[#d4af37] focus:outline-none rounded-sm"></textarea>
+                    <textarea id="cust-notes" rows="3" placeholder="Préférence (Photo ou Vidéo), type de service (CEO, Glamour...)" class="w-full bg-[#050505] border border-gray-800 px-4 py-3 text-white text-sm focus:border-[#d4af37] focus:outline-none rounded-sm"></textarea>
                 </div>
 
                 <button type="submit" class="w-full py-4 bg-gold-gradient text-black font-bold text-xs uppercase tracking-widest hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition duration-300 flex items-center justify-center gap-2">
@@ -743,18 +744,18 @@
             }, 400);
         });
 
-        // Set Dynamic Year
+        // Dynamic Year
         document.getElementById('year').textContent = new Date().getFullYear();
 
         // Navbar Scroll Styling Effect
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 40) {
-                navbar.classList.add('bg-[#050505]/95', 'backdrop-blur-md', 'py-4', 'border-b', 'border-[#d4af37]/20');
-                navbar.classList.remove('py-6');
+                navbar.classList.add('bg-[#050505]/95', 'backdrop-blur-md', 'py-3', 'border-b', 'border-[#d4af37]/20');
+                navbar.classList.remove('py-5');
             } else {
-                navbar.classList.remove('bg-[#050505]/95', 'backdrop-blur-md', 'py-4', 'border-b', 'border-[#d4af37]/20');
-                navbar.classList.add('py-6');
+                navbar.classList.remove('bg-[#050505]/95', 'backdrop-blur-md', 'py-3', 'border-b', 'border-[#d4af37]/20');
+                navbar.classList.add('py-5');
             }
         });
 
@@ -819,7 +820,7 @@
         }
 
         // Booking Modal Logic
-        let currentService = "Séance photo";
+        let currentService = "Séance photo / vidéo";
 
         function openBookingModal(serviceName) {
             currentService = serviceName;
@@ -839,22 +840,14 @@
             const date = document.getElementById('cust-date').value;
             const notes = document.getElementById('cust-notes').value;
 
-            const message = `Bonjour Luxe Shots, je souhaite réserver une séance.\n\n*Formule:* ${currentService}\n*Nom:* ${name}\n*Date souhaitée:* ${date}\n*Notes:* ${notes || 'Aucune'}`;
+            const message = `Bonjour Luxe Shots, je souhaite réserver.\n\n*Formule:* ${currentService}\n*Nom:* ${name}\n*Date souhaitée:* ${date}\n*Notes:* ${notes || 'Aucune'}`;
             const encodedMessage = encodeURIComponent(message);
             
             window.open(`https://wa.me/242069200863?text=${encodedMessage}`, '_blank');
             closeBookingModal();
         }
 
-        // Accordion FAQ Toggle
-        function toggleFaq(element) {
-            const content = element.querySelector('p');
-            const icon = element.querySelector('i');
-            content.classList.toggle('hidden');
-            icon.classList.toggle('rotate-180');
-        }
-
-        // Scroll Reveal Intersection Observer
+        // Scroll Reveal
         const revealElements = document.querySelectorAll('.reveal');
         const revealObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
